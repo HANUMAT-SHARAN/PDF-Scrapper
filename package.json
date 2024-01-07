@@ -1,0 +1,37 @@
+{
+  "name": "electrol_scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/translate": "^8.0.2",
+    "@google/generative-ai": "^0.1.3",
+    "axios": "^1.6.3",
+    "concat-stream": "^2.0.0",
+    "fs-extra": "^11.2.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "node-tesseract-ocr": "^2.2.1",
+    "pdf-image": "^2.0.0",
+    "pdf-img-convert": "^1.2.1",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-poppler": "^0.2.1",
+    "pdf2img": "^0.5.0",
+    "pdf2json": "^3.0.5",
+    "pdf2pic": "^3.1.0",
+    "pdfjs-dist": "^2.11.338",
+    "puppeteer": "^21.6.1",
+    "sharp": "^0.33.1",
+    "tesseract.js": "^5.0.4",
+    "translatte": "^3.0.1"
+  }
+}
